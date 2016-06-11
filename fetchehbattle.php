@@ -108,7 +108,6 @@ function getBattleZip($battleID) {
 		break;
 		default:
 		$errors = true;
-		$platform = "error";
 	}
 
 	switch ($subgroup) {
@@ -153,7 +152,6 @@ function getBattleZip($battleID) {
 		break;
 		default:
 		$errors = true;
-		$subgroup = "error";
 	}
 
 	// Now we use the Platform and SG info to find where to look for the battle number
